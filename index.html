@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Teriary education in seven countries</title>
+</head>
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="all.css">
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/d3.js"></script>
+<script type="text/javascript" src="js/echarts.min.js"></script>
+<body>
+  <div id="container">
+    <header id="choice">
+      <div id="choice1">
+          <span>Select the country</span>
+          <select class="country choice" name="">
+            <option value="BEN">Benin</option>
+            <option value="CIV">Côte d'Ivoire</option>
+            <option value="GHA">Ghana</option>
+            <option value="GIN">Guinea</option>
+            <option value="LBR">Liberia</option>
+            <option value="NGA">Nigeria</option>
+            <option value="TGO">Togo</option>
+          </select>
+      </div>
+      <div id="choice2">
+          <span>Select Gender  </span>
+          <select class="gender choice" name="">&nbsp
+            <option value="MF">Male and Female</option>
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+          </select>
+      </div>
+    </header>
+    <section>
+      <div class="bar">
+        <h7>Number of Male and Female Students in Higher Education</h7>
+        <svg id="barchar">
+
+        </svg>
+      </div>
+    </section>
+    <section>
+      <div class="line">
+        <h7>Gross Enrollment Rate in Higher Education</h7>
+        <svg id="linechar">
+
+        </svg>
+      </div>
+      <div class="pie">
+        <h7>Percentage of Female in Higher Education(%)</h7>
+        <svg id="piechar">
+
+        </svg>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
+<script type="text/javascript" src="js/main.js"> </script>

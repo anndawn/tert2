@@ -1,0 +1,5 @@
+[0125/170852.919:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0125/170852.936:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0125/170852.936:ERROR:process_reader_win.cc(151)] SuspendThread: Accès refusé. (0x5)
+[0125/170852.936:ERROR:process_reader_win.cc(123)] NtOpenThread: Spécification d’un ID de client non valide. (0xc000000b)
+[0125/170852.938:ERROR:exception_snapshot_win.cc(88)] thread ID 8056 not found in process
